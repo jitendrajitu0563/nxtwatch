@@ -1,0 +1,101 @@
+.HomeContainer{
+  min-height: 100vh;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  overflow-y: auto;
+  @media screen and (min-width: 768px) {
+    margin-left: 250px;
+    margin-bottom: 0px;
+  }}
+
+.BannerContainer{
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  width: 100%;
+  background-size: cover;
+  height: 200px;
+  justify-content: space-between;
+  padding: 20px;
+}
+.BannerLeftPart {
+  width: 50%;
+}
+.BannerRightPart {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.BannerImage{
+  width: 80px;
+  height: 30px;
+}
+.BannerButton{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #000000;
+  color: #000000;
+  background: none;
+}
+.BannerText{
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #000000;
+  @media screen and (min-width: 576px) {
+    font-size: 20px;
+  }
+}
+.BannerCloseButton{
+  border: none;
+  background: none;
+  height: 25px;
+
+}
+.SearchContainer{
+  display: flex;
+  border: 1px solid #909090;
+  border-radius: 3px;
+  margin: 20px;
+  width: 60%;
+  height: 40px;
+  @media screen and (min-width: 576px) {
+    width: 40%;
+  }
+}
+.SearchIconContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #909090;
+  width: 70px;
+  border: none;
+}
+
+.SearchInput{
+  background: none;
+  width: 100%;
+  outline: none;
+  padding: 5px;
+  border: none;
+  font-family: Roboto;
+}
+.LoaderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+ @media screen and (min-width: 576px) {
+    .HomeContainer{
+    margin-left: 250px;
+    margin-bottom: 0px;
+  }
+    .SearchContainer{
+        width: 40%;
+    }
+    .BannerText{
+        font-size: 20px;
+}
+
+ }

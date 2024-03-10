@@ -1,0 +1,67 @@
+.ItemLink{
+  text-decoration: none;
+}
+
+.TrendingListItem{
+  background: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.TrendingThumbNailImage{
+  width: 100%;
+}
+.TrendingVideoDetails{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+.TrendingProfileImage{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  margin: 20px;
+}
+.TrendingContentSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 8px;
+}
+.TrendingTitle{
+  font-family: Roboto;
+  font-size: 15px;
+}
+.TrendingChannelName{
+  font-family: Roboto;
+  font-size: 13px;
+}
+.TrendingViewsAndDate{
+  font-family: Roboto;
+  font-size: 12px;
+ 
+}
+.TrendingDot{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+@media screen and (min-width: 768px) {
+    .TrendingListItem{
+        flex-direction: row;
+        padding-left: 40px;
+    }
+    .TrendingThumbNailImage{
+        width: 300px;
+    }
+    .TrendingProfileImage{
+        display: none;
+    }
+    .TrendingContentSection{
+        margin-left: 20px;
+    }
+}

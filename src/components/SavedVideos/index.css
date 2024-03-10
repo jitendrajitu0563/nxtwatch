@@ -1,0 +1,68 @@
+.SavedContainer {
+  min-height: 100vh;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  overflow-y: auto;
+}
+.SavedVideoTitle {
+  display: flex;
+  align-items: center;
+}
+.SavedTitleIconContainer {
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.SavedText {
+  font-family: Roboto;
+  font-size: 25px;
+}
+.SavedVideoList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+}
+.NoSavedVideosView {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: none;
+}
+
+.NoSavedVideosImage {
+  width: 200px;
+}
+.NoSavedVideosHeading {
+  font-family: Roboto;
+  font-size: 25px;
+  text-align: center;
+}
+
+.NoSavedVideosNote {
+  font-family: Roboto;
+  font-size: 18px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .SavedContainer {
+    margin-left: 250px;
+    margin-bottom: 0px;
+  }
+  .SavedTitleIconContainer {
+    margin-left: 40px;
+  }
+  .NoSavedVideosImage {
+    width: 450px;
+  }
+  .SavedText {
+    font-size: 35px;
+  }
+}

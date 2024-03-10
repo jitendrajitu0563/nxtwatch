@@ -1,0 +1,64 @@
+.link {
+  text-decoration: none;
+}
+.ListItem{
+  background: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  @media screen and (min-width: 768px) {
+    width: 280px;
+    margin-right: 20px;
+  }
+}
+
+.ThumbNailImage{
+  width: 100%;}
+
+.VideoDetails{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;}
+
+.ProfileImage{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  margin: 20px;
+}
+.ContentSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 8px;
+}
+.Title{
+  font-family: Roboto;
+  font-size: 15px;
+ 
+}
+.ChannelName{
+  font-family: Roboto;
+  font-size: 13px;
+ 
+}
+.ViewsAndDate{
+  font-family: Roboto;
+  font-size: 12px;
+}
+.Dot{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+ @media screen and (min-width: 768px) {
+    .ListItem{
+        width: 280px;
+        margin-right: 20px;
+    }
+    
+
+ }

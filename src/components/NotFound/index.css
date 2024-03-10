@@ -1,0 +1,48 @@
+.NotFoundContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 92vh;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  overflow-y: auto;
+  @media screen and (min-width: 768px) {
+    margin-left: 250px;
+    margin-bottom: 0px;
+  }
+}
+.NotFoundVideosView{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: none;
+}
+
+.NotFoundVideosImage{
+  width: 200px;
+  @media screen and (min-width: 768px) {
+    width: 450px;
+  }
+}
+.NotFoundVideosHeading{
+  font-family: Roboto;
+  font-size: 25px;
+  text-align: center;
+}
+
+.NotFoundVideosNote{
+  font-family: Roboto;
+  font-size: 18px;
+  text-align: center;
+}
+ @media screen and (min-width: 768px) {
+        .NotFoundVideosImage{
+        width: 450px;
+    }
+    .NotFoundContainer{
+        margin-left: 250px;
+        margin-bottom: 0px;
+    
+    }
+ }

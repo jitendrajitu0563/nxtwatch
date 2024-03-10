@@ -1,0 +1,49 @@
+.TrendingContainer{
+  min-height: 100vh;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  overflow-y: auto;
+}
+.TrendingVideoTitle{
+  display: flex;
+  align-items: center;
+}
+.TitleIconContainer{
+  width: 40px;
+  height: 40px;
+  border-radius: 80px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TrendingText{
+  font-family: Roboto;
+  font-size: 25px;
+}
+.TrendingVideoList{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+}
+.LoaderContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+ @media screen and (min-width: 768px) {
+     .TrendingContainer{
+        margin-left: 250px;
+        margin-bottom: 0px;
+    }
+    .TitleIconContainer{
+        margin-left: 40px;
+    }
+    .TrendingText{
+        font-size: 35px;
+    }
+ }

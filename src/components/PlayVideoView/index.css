@@ -1,0 +1,88 @@
+.VideoPlayer{
+  padding: 20px;
+}
+.PlayVideoTitle{
+  font-family: Roboto;
+  font-size: 25px;
+}
+.PlayVideoStatusContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.PlayVideoStatus{
+  font-family: Roboto;
+  font-size: 12px;
+}
+
+.PlayVideoDot{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.PlaySocialButtonsContainer{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.SocialButton{
+  border: none;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.ButtonText{
+  margin-left: 5px;
+}
+
+.HrLine{
+  border: 1px solid #909090;
+}
+.ChannelContainer{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.ChannelImage{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+.ChannelInfo{
+  display: flex;
+  flex-direction: column;
+}
+.ChannelName{
+  font-family: Roboto;
+  font-size: 15px;
+  margin: 0px;
+}
+
+.ChannelSubscribers{
+  font-family: Roboto;
+  font-size: 12px;
+}
+
+.ChannelDescription{
+  font-family: Roboto;
+  font-size: 15px;
+}
+.BtnContainer{
+  display: flex;
+  background: none;
+}
+@media screen and (max-width: 576px) {
+    .ButtonText{
+        display: none;
+    }
+}
